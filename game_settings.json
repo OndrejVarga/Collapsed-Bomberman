@@ -1,0 +1,77 @@
+{
+    "EMPTY": "space_",
+    "BTN_PLAY": "button_0.png",
+    "BTN_EXIT": "button_1.png",
+    "BTN_BACK": "button_2.png",
+    "EXPLOSION_IMAGE": "explosion_0.png",
+    "BOMB_IMAGE": "bomb_0.png",
+    "WALL_IMAGE": "wall_0.png",
+    "PLAYER_IMAGE": "player_0.png",
+    "ENEMY_IMAGE": "enemy_",
+    "CURSOR_IMAGE": "cursor_0.png",
+    "UP": [
+        -1,
+        0
+    ],
+    "DOWN": [
+        1,
+        0
+    ],
+    "LEFT": [
+        0,
+        -1
+    ],
+    "RIGHT": [
+        0,
+        1
+    ],
+    "ENEMY_SPEED": 3,
+    "NUM_OF_ENEMIES": 3    ,
+    "ENEMY_SCALE": 0.8,
+    "BOMB_RANGE": 2,
+    "BOMB_COUNTDOWN_SEC": 1,
+    "BOMB_SCALE": 0.9,
+    "BOMB_LIMIT": 3,
+    "EXPLOSION_ALIVE_COUNTDOWN": 0.5,
+    "EXPLOSION_SPAWN_COUNTDOWN": 0.3,
+    "PLAYER_SPEED": 10,
+    "PLAYER_SCALE": 0.8,
+    "FPS": 60,
+    "WIDTH": 1200,
+    "HEIGHT": 800,
+    "VSYNC": false,
+    "TITLE_SIZE": 50,
+    "TEXT_SIZE": 30,
+    "BACKGROUND_COLOR": [
+        72,
+        44,
+        60
+    ],
+    "WHITE": [
+        255,
+        255,
+        255
+    ],
+    "BLACK": [
+        0,
+        0,
+        0
+    ],
+    "RED": [
+        255,
+        0,
+        0
+    ],
+    "GREEN": [
+        0,
+        255,
+        0
+    ],
+    "BLUE": [
+        0,
+        0,
+        255
+    ],
+    "CELL_SIZE": 50,
+    "PROPAGATION_COOLDOWN": 0.1
+}
