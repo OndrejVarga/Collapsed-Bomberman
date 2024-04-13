@@ -1,17 +1,19 @@
 
 # Collapsed Bomberman
 
-Collapsed Bomberman was developed as a semestral project for the 
+* Collapsed Bomberman was developed as a semestral project for the 
 2023 Winter Python class. The goal was to implement a Bomberman-like game with a unique map generation system utilizing the wave function collapse algorithm.
-![game](./images/top.gif)
+* Gameplay revolves around a simple premise: eliminate all enemies to achieve victory. Players strategically place bombs while navigating the map to outmaneuver enemies.
+* The visuals are created using beautifull 1-bit pack assets and the Press2Play font.
 
-## About
-Gameplay revolves around a simple premise: eliminate all enemies to achieve victory. Players strategically place bombs while navigating the map to outmaneuver enemies. 
+<p align="center">
+  <img src="./images/top.gif" width=75%>
+</p>
+
 #### Controls:
   - arrows - movement
   - space - blace bomb 
-The visuals are created using beautifull 1-bit pack assets and the Press2Play font.
-![game](./images/stand.gif)
+
 
 ## Development process
 The development process can be dissected into two primary components: 
@@ -20,11 +22,9 @@ The development process can be dissected into two primary components:
 
 ### Game Clone
 The game implementation utilizes pygame library for low-level functionlities. The game architecture revolves around states. Each state encapsulates a set of game entities which are building blocks of each scene. Entities, interact with the game systems through the draw() and update() functions. Each tick the current state calls its update-draw routine for the associated entities.
-![dev](./images/dev.gif)
 
 ### Wave Function collapse
 The wave function collapse algorithm plays a pivotal role in procedural map generation. Its main advantage is the ability to produce locally similar outputs to the inputs while remaining greedy. The resulting maps have more "natural feel" without any aditional overhead. This project implements th "simple tile" version of algorithm. The generation rules are generated dynamically from user defined map. Currently the initial map is hardcoded, but more interactive ways of defining the starting map is in plan.
-![wfc](./images/mapgen.gif)
 
 ## Features
 
@@ -34,7 +34,10 @@ The wave function collapse algorithm plays a pivotal role in procedural map gene
 
 ## Demo
 
-![gameplay](./images/demo.gif)
+<p align="center">
+  <img src="./images/mapgen.gif" width=75%>
+  <img src="./images/demo.gif" width=75%>
+</p>
 
 ## Requirements
 
@@ -70,6 +73,7 @@ Start the game:
 ```bash
   python main.py
 ```
+
 
 # Licences
 
